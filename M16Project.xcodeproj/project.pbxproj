@@ -13,6 +13,7 @@
 		7105A7C2274D1AEE004E08C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7105A7C0274D1AEE004E08C3 /* Main.storyboard */; };
 		7105A7C4274D1AF2004E08C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7105A7C3274D1AF2004E08C3 /* Assets.xcassets */; };
 		7105A7C7274D1AF2004E08C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7105A7C5274D1AF2004E08C3 /* LaunchScreen.storyboard */; };
+		9FC548A92B0811D700042968 /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC548A82B0811D700042968 /* NewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7105A7C3274D1AF2004E08C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7105A7C6274D1AF2004E08C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7105A7C8274D1AF2004E08C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC548A82B0811D700042968 /* NewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewVC.swift; path = ../../iOS_lvl1/M19Homework/Kinobox/Kinobox/Views/NewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7105A7BA274D1AEE004E08C3 /* AppDelegate.swift */,
 				7105A7BC274D1AEE004E08C3 /* SceneDelegate.swift */,
 				7105A7BE274D1AEE004E08C3 /* ViewController.swift */,
+				9FC548A82B0811D700042968 /* NewVC.swift */,
 				7105A7C0274D1AEE004E08C3 /* Main.storyboard */,
 				7105A7C3274D1AF2004E08C3 /* Assets.xcassets */,
 				7105A7C5274D1AF2004E08C3 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7105A7BF274D1AEE004E08C3 /* ViewController.swift in Sources */,
+				9FC548A92B0811D700042968 /* NewVC.swift in Sources */,
 				7105A7BB274D1AEE004E08C3 /* AppDelegate.swift in Sources */,
 				7105A7BD274D1AEE004E08C3 /* SceneDelegate.swift in Sources */,
 			);
