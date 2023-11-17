@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  M16Project
-//
-//  Created by sotskiy on 23.11.2021.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
