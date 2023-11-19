@@ -6,7 +6,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.layer.borderColor = UIColor.black.cgColor
+        view.backgroundColor = .black
     }
 }
 
