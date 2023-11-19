@@ -12,5 +12,6 @@ class NewVC: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .black
+        view.layer.cornerRadius = 7
     }
 }
