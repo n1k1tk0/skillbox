@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  M16Project
-//
-//  Created by sotskiy on 23.11.2021.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -13,8 +6,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let scene = (scene as? UIWindowScene) else { return }
-        let window = UIWindow(windowScene: scene)
+        guard let sceneDelegate = (scene as? UIWindowScene) else { return }
+        let window = UIWindow(windowScene: sceneDelegate)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
