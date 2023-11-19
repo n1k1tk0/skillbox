@@ -5,4 +5,12 @@
 //  Created by Никита Владимиров on 18.11.2023.
 //
 
-import Foundation
+import UIKit
+
+class NewVC: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .black
+    }
+}
