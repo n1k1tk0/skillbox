@@ -2,11 +2,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view.testColor = UIColor.black.Cgcolor
     }
 }
 
