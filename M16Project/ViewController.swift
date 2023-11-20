@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var titleView: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
