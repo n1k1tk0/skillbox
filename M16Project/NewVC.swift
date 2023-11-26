@@ -22,6 +22,7 @@ class NewVC: UIViewController {
         setupViews()
         setupConstraints()
         activityIndicator.startAnimating()
+        activityIndicator.stopAnimating()
     }
     
     private func setupViews() {
