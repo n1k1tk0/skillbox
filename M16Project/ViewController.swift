@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var database: [UIImage] = []
+    var database: [UIImage] = [UIImage(named: "folder")!]
 
     @IBOutlet weak var titleLabel: UILabel!
 
