@@ -12,6 +12,16 @@ class ViewController: UIViewController {
         return view
     }()
     
+    private lazy var stopActivityIndicatorButton: UIButton = {
+        let view = UIButton(type: .close)
+        view.setTitle("STOP", for: .disabled)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .red
+        view.titleLabel?.textColor = .black
+        view.addTarget(UIButton.self, action: #selector(click), for: .touchUpInside)
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -19,15 +29,20 @@ class ViewController: UIViewController {
         setupViews()
         setupConstraints()
         loadRandomImage()
+        activityIndicator.startAnimating()
     }
     
     private func setupViews() {
         view.addSubview(activityIndicator)
+        view.addSubview(stopActivityIndicatorButton)
     }
     
     private func setupConstraints() {
         activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         activityIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        
+        stopActivityIndicatorButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        stopActivityIndicatorButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 20).isActive = true
     }
     
     private func loadRandomImage() {
@@ -40,6 +55,10 @@ class ViewController: UIViewController {
                 database.append(UIImage(data: data) ?? UIImage())
             }
         )
+    }
+    
+    @objc func click(sender: UIButton) {
+        activityIndicator.stopAnimating()
     }
 }
 
