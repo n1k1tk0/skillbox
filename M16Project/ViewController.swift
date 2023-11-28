@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var database: [UIImage] = [UIImage(named: "pencil")!]
+    var database: [UIImage] = [UIImage(named: "folder")!]
 
     @IBOutlet weak var titleLabel: UILabel!
 
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .yellow
+        view.backgroundColor = .black
         
         setupViews()
         setupConstraints()
