@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         loadRandomImage()
         activityIndicator.style = .medium
         activityIndicator.startAnimating()
+        activityIndicator.stopAnimating()
     }
     
     private func setupViews() {
@@ -60,6 +61,7 @@ class ViewController: UIViewController {
     
     @objc func click(sender: UIButton) {
         activityIndicator.stopAnimating()
+        print(database)
     }
 }
 
