@@ -59,6 +59,7 @@ class ViewController: UIViewController {
     
     @objc func click(sender: UIButton) {
         activityIndicator.stopAnimating()
+        print(database)
     }
 }
 
