@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         setupViews()
         setupConstraints()
         loadRandomImage()
-        activityIndicator.style = .medium
+        activityIndicator.style = .init(rawValue: 1)
         activityIndicator.startAnimating()
         activityIndicator.stopAnimating()
     }
