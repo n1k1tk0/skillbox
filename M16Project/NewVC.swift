@@ -18,6 +18,7 @@ class NewVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        view.layer.cornerRadius = 8
         
         setupViews()
         setupConstraints()
