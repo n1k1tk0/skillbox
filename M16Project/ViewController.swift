@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         setupViews()
         setupConstraints()
         loadRandomImage()
-        activityIndicator.style = .init(rawValue: 1)
+        activityIndicator.style = .large
         activityIndicator.startAnimating()
         activityIndicator.stopAnimating()
     }
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     
     @objc func click(sender: UIButton) {
         activityIndicator.stopAnimating()
-        print(database)
+        print(database.isEmpty)
     }
 }
 
