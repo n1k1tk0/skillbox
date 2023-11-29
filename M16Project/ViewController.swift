@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         setupViews()
         setupConstraints()
         loadRandomImage()
-        activityIndicator.startAnimating()
+        activityIndicator.stopAnimating()
     }
     
     private func setupViews() {
